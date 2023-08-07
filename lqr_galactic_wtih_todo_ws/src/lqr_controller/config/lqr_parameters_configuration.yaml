@@ -1,0 +1,15 @@
+lqr_lateral_pid_longitudinal:
+  ros__parameters:
+    vehicle_odom_topic : "/odom" 
+    vehicle_cmd_topic : "/vehicle_cmd" 
+    roadmap_path : "src/lqr_controller/data/cube_town_record_line.txt" 
+    target_speed : 5.0
+    goal_tolerance : 0.5
+    control_frequency : 100.0
+    vis_frequency : 0.5
+    path_vis_topic : "path_vis" 
+    speed_P : 0.4
+    speed_I : 0.1
+    speed_D : 0.0
+    frame_id : "gps" 
+    vehicle_imu_topic : "/imu_raw"
