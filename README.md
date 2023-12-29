@@ -1,2 +1,2 @@
-# ROS-2.0-lqr
+# ROS2-LQR
 车辆LQR控制
